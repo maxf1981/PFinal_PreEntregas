@@ -45,7 +45,7 @@ class ProductManager {
   
   // Testing
   // Agregar un producto
-  const productData = {
+  const productInfo = {
     title: "producto prueba",
     description: "Este es un producto prueba",
     price: 200,
@@ -54,7 +54,7 @@ class ProductManager {
     stock: 25,
   };
   
-  const nuevoProducto = productManager.addProduct(productData);
+  const nuevoProducto = productManager.addProduct(productInfo);
   console.log("Producto agregado:", nuevoProducto);
   
   
